@@ -1,0 +1,105 @@
+@font-face {
+	font-family: "MuseoSans";
+	src: url("../fonts/MuseoSansRegular/MuseoSansRegular.eot");
+	src: url("../fonts/MuseoSansRegular/MuseoSansRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MuseoSansRegular/MuseoSansRegular.woff") format("woff"),
+	url("../fonts/MuseoSansRegular/MuseoSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MuseoSans";
+	src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot");
+	src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MuseoSansMedium/MuseoSansMedium.woff") format("woff"),
+	url("../fonts/MuseoSansMedium/MuseoSansMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "MuseoSans";
+	src: url("../fonts/MuseoSansBold/MuseoSansBold.eot");
+	src: url("../fonts/MuseoSansBold/MuseoSansBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MuseoSansBold/MuseoSansBold.woff") format("woff"),
+	url("../fonts/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "MuseoSans";
+	src: url("../fonts/MuseoSansBlack/MuseoSansBlack.eot");
+	src: url("../fonts/MuseoSansBlack/MuseoSansBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MuseoSansBlack/MuseoSansBlack.woff") format("woff"),
+	url("../fonts/MuseoSansBlack/MuseoSansBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+    font-family: 'Museo Sans';
+    src: local('Museo Sans 300'), local('Museo-Sans-300'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+	font-family: "MuseoSans";
+	src: url('../fonts/MuseoSansCyrl-100.eot');
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+	url('../fonts/MuseoSansCyrl-100.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria.woff2') format('woff2'),
+	url('../fonts/Geometria.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria-Bold.woff2') format('woff2'),
+	url('../fonts/Geometria-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria-Medium.woff2') format('woff2'),
+	url('../fonts/Geometria-Medium.otf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria';
+	src:  url('../fonts/Geometria-ExtraBold.woff2') format('woff2'),
+	url('../fonts/Geometria-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Geometria";
+	src:  url('../fonts/Geometria-Heavy.woff2') format('woff2'),
+	url('../fonts/Geometria-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Geometria";
+	src: url('../fonts/Geometria-Light.eot');
+	src: url('../fonts/Geometria-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Geometria-Light.woff') format('woff'),
+	url('../fonts/Geometria-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
