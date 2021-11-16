@@ -102,6 +102,15 @@
 	}
 	.item-news__image {
 		height: 280px;
+	} 
+	.sidebar-article__content {
+		padding: 0 15px;
+	}
+	.article-main table td:first-child {
+		padding-right: 70px;
+	}
+	.article {
+		padding-top: 0;
 	}
 }
 /* Large Devices, Wide Screens */
@@ -278,6 +287,38 @@
 		padding-top: 0;
 		padding-bottom: 50px;
 	}
+	.article-main {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.article-main__image {
+		margin: 0 -20px;
+	}
+	.article-main h1 {
+    font-size: 27px;
+    line-height: 39px;
+}
+.article-main h2 {
+    font-size: 24px;
+    line-height: 32px;
+    }
+    .article-main h3 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.article-main img {
+	margin-bottom: 20px;
+}
+.article-main table td:first-child {
+	padding-right: 20px;
+}
+.sidebar-article__title {
+	font-size: 14px;
+	line-height: 20px;
+}
+.article__right .title-middle {
+	padding-bottom: 20px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -489,6 +530,19 @@
 	.news .pager {
 		padding-top: 0;
 	}
+	.article__right .title-middle {
+		padding-top: 25px;
+	}
+	.sidebar-article__content {
+		padding: 0 30px;
+	}
+	.sidebar-article__title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.article {
+		padding-bottom: 40px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -626,6 +680,49 @@
 		font-size: 18px;
 		line-height: 27px;
 	}
+	.article-main h1 {
+    font-size: 23px;
+    line-height: 35px;
+}
+.article-main__head .days-block {
+	margin-right: 15px;
+}
+.article-main h2 {
+    font-size: 20px;
+    line-height: 29px;
+    padding-top: 0;
+}
+.article-main h3 {
+    font-size: 19px;
+    line-height: 26px;
+    padding-top: 0;
+}
+.article-main h3,
+.article-main h2 {
+	margin-bottom: 15px;
+}
+.article-main p {
+	margin-bottom: 15px;
+}
+.article-main li {
+	margin-bottom: 15px;
+}
+.article-main table {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0 -20px;
+	width: initial;
+}
+.article-main table td:first-child {
+	padding-right: 10px;
+	width: initial;
+}
+.article-main {
+	padding-bottom: 20px;
+}
+.sidebar-article {
+	margin-bottom: 20px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -829,6 +926,29 @@
 }
 .row_news > div {
 	margin-bottom: 30px;
+}
+.article-main {
+	margin: 0 -15px;
+	padding: 20px 15px;
+	margin-top: -34px;
+}
+.article-main__head {
+	margin-bottom: 20px;
+	display: block;
+}
+.article-main__head .days-block {
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+.article-main__image {
+	margin: 0 -15px;
+}
+.sidebar-article__content {
+	padding: 0 15px;
+}
+.sidebar-article__title {
+    font-size: 14px;
+    line-height: 21px;
 }
 } 
 
