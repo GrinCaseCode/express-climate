@@ -84,6 +84,76 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		slidesToScroll: 1
 	});
 
+
+	$('.item-portfolio__slider').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		slidesToShow:1,
+		slidesToScroll: 1
+	});
+
+	$('.portofolio-nav').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		asNavFor: $('.portofolio-for'),
+		focusOnSelect: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 3,
+			}
+		}
+		]
+	});
+
+	$('.portofolio-for').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		asNavFor: $('.portofolio-nav'),
+		slidesToShow:1,
+		slidesToScroll: 1
+	});
+
+
+	$('.slider-partners').slick({
+		arrows: true,
+		dots: false,
+		infinite: true,
+		focusOnSelect: true,
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 4,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				arrows: false,
+				dots: true,
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 480,
+			settings: {
+				arrows: false,
+				dots: true,
+				slidesToShow: 2,
+			}
+		}
+		]
+	});
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 	 $(".item-question__head").click(function() {
@@ -92,6 +162,17 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
   $(this).parent().siblings(".item-question").removeClass("active");
   $(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
 });
+
+	 $('.tabs-about li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-about").hide();
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(100);
+
+		$('.tab-pane-about .slider-partners').slick('refresh');
+	});
 
 
 {
