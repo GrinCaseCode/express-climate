@@ -578,6 +578,19 @@
 	#map-contact {
 		height: 400px;
 	}
+	.modal-block .block-callback {
+		display: block;
+	}
+	.modal-block .block-callback .block-callback__image {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+	.modal-block .block-callback .block-callback__image img {
+		margin: 0 auto;
+	}
+	.modal-block .block-callback {
+		padding: 30px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -1017,6 +1030,9 @@
 }
 #map-contact {
 	height: 370px;
+}
+.modal-block .block-callback {
+	padding: 25px 15px;
 }
 } 
 
