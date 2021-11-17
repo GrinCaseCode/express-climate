@@ -800,6 +800,8 @@
 }
 }
 
+
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.conditioner img {
@@ -1032,7 +1034,7 @@
 	height: 370px;
 }
 .modal-block .block-callback {
-	padding: 25px 15px;
+	padding: 25px 15px; 
 }
 } 
 
