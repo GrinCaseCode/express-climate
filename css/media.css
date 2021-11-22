@@ -1158,6 +1158,7 @@
 	}
 	.table-wrap {
 		padding-right: 15px;
+		max-height: 288px;
 	}
 	.service-page {
 		padding-top: 30px;
