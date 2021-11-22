@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.11" />
+	<link rel="stylesheet" href="css/media.css?ver=1.11" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header default">
+			<div class="header__top">
+				<div class="container">
+					<ul class="menu"> 
+						<li><a href="#">Услуги и цены</a></li>
+						<li><a href="#">Портфолио</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container">
+				<div class="header__wrap">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+						<div class="logo-descr">Полный комплекс услуг по ремонту и обслуживанию систем кондиционирования</div>
+					</div>
+					<div class="item-location">
+						<p>Севастополь <br>ул. Индустриальная, 28</p>
+					</div>
+					<div class="item-contacts">
+						<ul class="list-social">
+							<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+						</ul>
+						<div class="item-contacts__right">
+							<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+							<a href="#callback-modal" class="link-simple fancybox">заказать звонок</a>
+						</div>
+					</div>
+					<a href="#" class="btn-page">Вызвать мастера</a>
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">Услуги и цены</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Блог</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="item-location">
+					<p>Севастополь <br>ул. Индустриальная, 28</p>
+				</div>
+				<div class="item-contacts">
+					<ul class="list-social">
+						<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+						<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+					</ul>
+					<div class="item-contacts__right">
+						<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+						<a href="#callback-modal" class="link-simple fancybox">заказать звонок</a>
+					</div>
+				</div>
+				<a href="#callback-modal" class="btn-page fancybox">Вызвать мастера</a>
+			</div>
+		</header>
+
+		<section class="billbord billbord_service">
+			<div class="container">
+				<h1 class="title-big">ремонт кондиционеров <strong>от 250 Р</strong></h1>
+				<div class="descr-big">на дому в Севастополе</div>
+				<form>
+					<div class="form-phone">
+						<div class="item-form">
+							<input type="text" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" class="input-phone" required="required">
+						</div>
+						<button class="btn-special">заказать ремонт</button>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Согласие на обработку персональных данных</span>
+							</label>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="billbord__bottom">
+				<div class="container">
+					<div class="wrap-circles">
+						<div class="item-circle">
+							<div class="item-circle__title">Официальный <span>сервисный центр</span>, более</div>
+							<div class="item-circle__value">20+</div>
+							<div class="item-circle__descr">брендов</div>
+						</div>
+						<div class="item-circle">
+							<div class="item-circle__title">Скидки <br><span>постоянным <br>клиентам</span></div>
+							<div class="item-circle__value">10%</div>
+							<div class="item-circle__descr">при повторном обращении</div>
+						</div>
+						<div class="item-circle">
+							<div class="item-circle__title">Обслуживаем <span>в Севастополе</span></div>
+							<div class="item-circle__value">+50</div>
+							<div class="item-circle__descr">км от города</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="service-page">
+			<div class="container">
+				<h2 class="title-section">Главный <span>секрет долгой службы кондиционера</span> после ремонта - своевременная профилактика, обслуживание и дозаправка</h2>
+				<ul class="tabs-about">
+					<li class="active"><a href="#tab_about1">Ремонт</a></li>
+					<li><a href="#tab_about2">Диагностика</a></li>
+					<li><a href="#tab_about3">Техническое обслуживание</a></li>
+					<li><a href="#tab_about4">Монтаж</a></li>
+					<li><a href="#tab_about5">Демонтаж</a></li>
+					<li><a href="#tab_about5">Заправка</a></li>
+				</ul>
+				<div class="tab-container-about">
+					<div class="tab-pane-about" id="tab_about1">
+						<div class="table-page">
+							<div class="table-wrap">
+								<table>
+									<tbody>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane-about" id="tab_about2">
+						<div class="table-page">
+							<div class="table-wrap">
+								<table>
+									<tbody>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane-about" id="tab_about3">
+						<div class="table-page">
+							<div class="table-wrap">
+								<table>
+									<tbody>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane-about" id="tab_about4">
+						<div class="table-page">
+							<div class="table-wrap">
+								<table>
+									<tbody>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane-about" id="tab_about5">
+						<div class="table-page">
+							<div class="table-wrap">
+								<table>
+									<tbody>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Высокая сложность тех.обслуживания (столовая, магазин, кухня)</td>
+											<td>шт.</td>
+											<td><strong>+50% </strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание бытовой сплит-системы 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>1600 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание кассетного, напольно-потолочного, канального 7-9 модели</td>
+											<td>шт.</td>
+											<td><strong>3000 Р</strong></td>
+										</tr>
+										<tr>
+											<td>Тех.обслуживание арткул 12 модели</td>
+											<td>шт.</td>
+											<td><strong>2000 Р</strong></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-block">
+					<div class="row">
+						<div class="col-lg-8">
+							<h2>Ремонт кондиционера - как избежать поломок</h2>
+							<ul>
+								<li>Не настраивать кондиционер на температуру ниже уличной более чем на 7-10°C</li>
+								<li>Чрезмерная нагрузка на компрессор приведет к быстрому выходу из строя механических частей.</li>
+								<li>При сильной жаре на улице понижать температуру в помещении надо в несколько этапов — по 2-3°C каждый час работы.</li>
+								<li>Плотно закрывать окна и двери в помещении.</li>
+								<li>Если мощность кондиционера рассчитана на 20 квадратных метров, то не стоит пытаться охладить несколько комнат площадью 25 и больше квадратов. Это может привести к резкому увеличению нагрузки на компрессор и выходу его из строя.</li>
+								<li>Не стоит постоянно выключать и включать кондиционер, если вы чувствуете, что температура не подходит для вас. Лучше настроить комфортные значения по температуре на автоматике и она самостоятельно будет чередовать периоды активной работы и простоя для поддержания необходимой температуры</li>
+							</ul>
+							<p>Если вы заметили какие-то странности в работе вашего кондиционера: странные звуки, вибрации или посторонний запах — следует срочно выключить его и обратиться к мастеру по ремонту кондиционеров в Севастополе для срочного проведения ремонта.</p>
+							<h3>Самостоятельная диагностика кондиционера</h3>
+							<p>Мы крайне не рекомендуем Вам самостоятельно вмешиваться в работу любых домашних приборов, это крайне опасно и такую работу стоит доверить профессионалам, однако, перед тем, как вызвать бригаду опытных специалистов по ремонту кондиционеров в Севастополе следует проверить следующие пункты:</p>
+							<ul>
+								<li>Включен ли кондиционер в сеть;</li>
+								<li>Заряжены ли батарейки в пульте управления кондиционером;</li>
+								<li>Не наблюдается ли утечки фреона (визуализируется как образование наледи или инея на трубопроводах и деталях кондиционера )</li>
+							</ul>
+							<h3>Срочный ремонт кондиционера в Севастополе</h3>
+							<p>Наш единый сервисный центр в Севастополе предоставляет возможность срочного ремонта кондиционеров даже в нерабочее время. Высокий уровень квалификации наших специалистов позволит выполнить работы по ремонту кондиционера на дому в кратчайшие сроки и с минимальными затратами</p>
+						</div>
+						<div class="col-lg-4">
+							<img src="img/serv1.jpg" alt="alt">
+							<img src="img/serv2.jpg" alt="alt">
+						</div>
+					</div>
+				</div>
+				<div class="title-section">Работаем с <span>широким перечнем брендов</span></div>
+				<ul class="slider-partners arrows-right">
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner1.png" alt="alt">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner2.png" alt="alt">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner3.png" alt="alt">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner4.png" alt="alt">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner5.png" alt="alt">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner6.png" alt="alt">
+						</a>
+					</li>
+					<li>
+						<a href="#" class="item-brand">
+							<img src="img/partner1.png" alt="alt">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="FAQ">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="title-section">Топ самых <span>частых вопросов</span> о поломках кондиционеров и экспертные ответы на них</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="questions-wrap">
+							<div class="item-question active">
+								<div class="item-question__head"><div class="item-question__icon"></div>Как долго будут проводиться работы?</div>
+								<div class="item-question__content" style="display: block;">
+									<p>На предоставление каждой услуги мы закладываем определенное количество времени. Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее. </p>
+									<p>Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее по номеру</p>
+									<div class="item-contacts">
+										<ul class="list-social">
+											<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+											<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+										</ul>
+										<div class="item-contacts__right">
+											<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-question">
+								<div class="item-question__head"><div class="item-question__icon"></div>Обслуживаете ли вы другие бренды кондиционеров? <br>Помимо тех которые указаны на сайте</div>
+								<div class="item-question__content">
+									<p>На предоставление каждой услуги мы закладываем определенное количество времени. Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее. </p>
+									<p>Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее по номеру</p>
+									<div class="item-contacts">
+										<ul class="list-social">
+											<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+											<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+										</ul>
+										<div class="item-contacts__right">
+											<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-question">
+								<div class="item-question__head"><div class="item-question__icon"></div>Есть ли у вас выставочная площадка?</div>
+								<div class="item-question__content">
+									<p>На предоставление каждой услуги мы закладываем определенное количество времени. Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее. </p>
+									<p>Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее по номеру</p>
+									<div class="item-contacts">
+										<ul class="list-social">
+											<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+											<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+										</ul>
+										<div class="item-contacts__right">
+											<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-question">
+								<div class="item-question__head"><div class="item-question__icon"></div>Есть ли скидки пенсионерам и инвалидам?</div>
+								<div class="item-question__content">
+									<p>На предоставление каждой услуги мы закладываем определенное количество времени. Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее. </p>
+									<p>Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее по номеру</p>
+									<div class="item-contacts">
+										<ul class="list-social">
+											<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+											<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+										</ul>
+										<div class="item-contacts__right">
+											<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-question">
+								<div class="item-question__head"><div class="item-question__icon"></div>Выезжаете ли вы на участок?</div>
+								<div class="item-question__content">
+									<p>На предоставление каждой услуги мы закладываем определенное количество времени. Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее. </p>
+									<p>Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее по номеру</p>
+									<div class="item-contacts">
+										<ul class="list-social">
+											<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+											<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+										</ul>
+										<div class="item-contacts__right">
+											<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-question">
+								<div class="item-question__head"><div class="item-question__icon"></div>Каковы сроки строительства?</div>
+								<div class="item-question__content">
+									<p>На предоставление каждой услуги мы закладываем определенное количество времени. Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее. </p>
+									<p>Продолжительность исполнения работ зависит от их сложности. Для оперативного предоставления услуг просьба обращаться заранее по номеру</p>
+									<div class="item-contacts">
+										<ul class="list-social">
+											<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+											<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+										</ul>
+										<div class="item-contacts__right">
+											<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="consult">
+							<div class="consult__title">Остались вопросы?</div>
+							<div class="consult__image">
+								<img src="img/consult.png" alt="alt">
+							</div>
+							<div class="consult__descr">Оставьте заявку и я отвечу на все вопросы по ремонту и обслуживанию кондиционеров</div>
+							<a href="#" class="btn-main">задать вопрос</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 footer__left">
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Полный комплекс услуг по ремонту и обслуживанию систем кондиционирования</div>
+						</div>
+						<ul class="list-social"> 
+							<li><a href="#"><img src="img/vk.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/insta.svg" alt="alt"></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_mob">Услуги и цены <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<ul class="footer__nav">
+								<li><a href="#">Ремонт кондиционеров</a></li>
+								<li><a href="#">Сервисное обслуживание</a></li>
+								<li><a href="#">Монтаж кондиционеров</a></li>
+								<li><a href="#">Демонтаж кондиционеров</a></li>
+								<li><a href="#">Установка канальных кондиционеров</a></li>
+								<li><a href="#">Заправка автокондиционера</a></li>
+								<li><a href="#">Установка кассетных кондиционеров</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<ul class="footer__menu">
+							<li><a href="#">Портфолио</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Блог</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__title footer__title_mob">Контакты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<div class="item-location">
+								<p>Севастополь <br>ул. Индустриальная, 28</p>
+							</div>
+							<div class="item-contacts">
+								<ul class="list-social">
+									<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+									<li><a href="#"><img src="img/wt.svg" alt="alt"></a></li>
+								</ul>
+								<div class="item-contacts__right">
+									<a href="tel:+79786164150" class="phone-main">+7 978 616-41-50</a>
+								</div>
+							</div>
+							<a href="mailto:egss-sevastopol@yandex.ru" class="link-simple">egss-sevastopol@yandex.ru</a>
+						</div>
+						<div class="footer__title footer__title_mob">Банковские реквизиты <i class="far fa-chevron-down"></i></div>
+						<div class="footer__content">
+							<div class="footer__requisites">
+								<p>ИНН: 7805524271</p>
+								<p>ОГРН: 1107847199844</p>
+								<p>КПП: 780201001</p>
+								<p>ОКАТО: 40265000000</p>
+								<p>ОКПО: 67396289</p>
+								<p>ОКТМО: 40314000000</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="callback-modal" class="modal-block">
+		<div class="block-callback">
+			<div class="block-callback__image">
+				<img src="img/consultation.png" alt="alt">
+			</div>
+			<div class="block-callback__content">
+				<div class="block-callback__title"><strong>Закажите обратный звонок</strong> и мы перезвоним вам в течение <span>30 секунд</span></div>
+				<form>
+					<div class="row row_form">
+						<div class="col-lg-4 col-md-6">
+							<div class="item-form">
+								<input type="text" placeholder="+7 (ХХХ) ХХХ-ХХ-ХХ" class="input-phone" required="required">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="item-form">
+								<input type="email" placeholder="Ваш Email" required="required">
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<button class="btn-main">заказать звонок</button>
+						</div>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.11"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
