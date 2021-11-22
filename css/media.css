@@ -1162,6 +1162,9 @@
 	.service-page {
 		padding-top: 30px;
 	}
+	.billbord_service {
+		background-size: auto 120%;
+	}
 } 
 
 /* Custom, iPhone Retina */
