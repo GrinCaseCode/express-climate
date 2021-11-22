@@ -1168,6 +1168,9 @@
 	.billbord_service .title-big strong {
 		white-space: nowrap;
 	}
+	.billbord_service {
+		background-size: auto 120%;
+	}
 } 
 
 /* Custom, iPhone Retina */
