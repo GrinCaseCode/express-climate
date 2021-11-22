@@ -1162,8 +1162,11 @@
 	.service-page {
 		padding-top: 30px;
 	}
-	.billbord_service {
-		background-size: auto 120%;
+	.form-phone .btn-special {
+		width: 100%;
+	}
+	.billbord_service .title-big strong {
+		white-space: nowrap;
 	}
 } 
 
