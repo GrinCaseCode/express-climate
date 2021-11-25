@@ -126,7 +126,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		dots: false,
 		infinite: true,
 		focusOnSelect: true,
-		slidesToShow: 6,
+		rows: 2,
+		slidesToShow: 4,
 		slidesToScroll: 1,
 		responsive: [
 		{
